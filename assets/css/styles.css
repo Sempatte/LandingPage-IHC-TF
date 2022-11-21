@@ -185,6 +185,15 @@ section.design img {
 }
 
 
+section.contact {
+  padding: 75px;
+}
+
+footer a {
+  text-decoration: none !important;
+  color: #181433
+}
+
 /* CAROUSEL CLIENTS */
 
 .shadow-effect {
@@ -293,4 +302,16 @@ section.design img {
 .carousel-item img {
   margin: auto;
   width: 315px;
+}
+
+.btn-contact-submit {
+  background-color: #FF7F5C;
+  height: 50px;
+  border: none;
+}
+
+.btn-contact-submit:hover{
+  background-color: #3734a9;
+  color: white;
+  transition: all 0.5s;
 }
