@@ -157,7 +157,7 @@ span {
   .main-image {
     width: 269px;
   }
-  
+
 }
 
 
@@ -176,12 +176,20 @@ section.caracteristicas {
   padding: 75px;
 }
 
+section.design {
+  padding: 75px;
+}
+
+section.design img {
+  width: 200px;
+}
+
 
 /* CAROUSEL CLIENTS */
 
 .shadow-effect {
   background: #fff;
-  padding: 20px;
+  padding: 15px;
   border-radius: 4px;
   text-align: center;
   border: 1px solid #ECECEC;
@@ -227,7 +235,7 @@ section.caracteristicas {
 }
 
 .owl-carousel .owl-item img {
-  
+
   transform-style: preserve-3d;
   max-width: 90px;
   margin: 0 auto 17px;
@@ -273,11 +281,15 @@ section.caracteristicas {
   margin-bottom: -2rem !important;
 }
 
-.carousel-indicators button, .carousel-indicators button:active, .carousel-indicators button:focus, .carousel-indicators button:hover {
-  
+.carousel-indicators button,
+.carousel-indicators button:active,
+.carousel-indicators button:focus,
+.carousel-indicators button:hover {
+
   background-color: #000 !important;
 
 }
+
 .carousel-item img {
   margin: auto;
   width: 315px;
